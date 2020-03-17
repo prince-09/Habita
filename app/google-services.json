@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "43096515760",
+    "firebase_url": "https://habita-7ce17.firebaseio.com",
+    "project_id": "habita-7ce17",
+    "storage_bucket": "habita-7ce17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43096515760:android:1fe849a7580f09e2238775",
+        "android_client_info": {
+          "package_name": "in.krharsh17.habita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43096515760-kfivschisrnjocttbu7gl60lj4a8q59c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.krharsh17.habita",
+            "certificate_hash": "39c44704643520807a8cb9f03b2c26e8042b34d8"
+          }
+        },
+        {
+          "client_id": "43096515760-ifosv9cm00su7n3jt2r6uhqo9hj7ipql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqCxddG6DIVyhzTIQZa2OwPuSbMXfAMQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43096515760-ifosv9cm00su7n3jt2r6uhqo9hj7ipql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

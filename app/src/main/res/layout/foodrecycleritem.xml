@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="4dp"
+    android:layout_marginTop="7dp"
+    android:layout_marginBottom="7dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/foodrecycleitemrbackground">
+
+    <ImageView
+        android:id="@+id/foodimage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/foodname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:textColor="#000000"
+        android:text="Fresh Pan Pizza"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:fontFamily="@font/ralewaybold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/availableingredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="40dp"
+        android:textColor="#000000"
+        android:text="Fresh Pan Pizza"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:fontFamily="@font/ralewaymedium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/ingredientslist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodimage" />
+
+    <LinearLayout
+        android:id="@+id/missingingredients"
+        android:layout_width="125dp"
+        android:layout_height="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <ImageView
+            android:id="@+id/downarrow"
+            android:layout_width="15dp"
+            android:src="@drawable/addplantbackground"
+            android:layout_marginEnd="5dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/ralewaybold"
+            android:textSize="11sp"
+            android:textColor="#4D8AF0"
+            android:text="Missing Ingredients"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
